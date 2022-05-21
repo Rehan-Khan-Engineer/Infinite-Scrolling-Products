@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RK-Accessories</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css"
+      integrity="sha384-7ynz3n3tAGNUYFZD3cWe5PDcE36xj85vyFkawcF6tIwxvIecqKvfwLiaFdizhPpN"
+      crossorigin="anonymous"
+    />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <img src="./Images/logo.png" alt="logo" />
+          </div>
+          <nav>
+            <ul id="MenuItems">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html" target="_blank">Products</a></li>
+              <li><a href="account.html" target="_blank">About</a></li>
+              <li><a href="contact.html" target="_blank">Contact</a></li>
+              <li><a href="account.html" target="_blank">Account</a></li>
+            </ul>
+          </nav>
+          <img
+            class="cart-image"
+            src="./Images/cart.png"
+            width="30px"
+            height="30px"
+            alt="cart"
+          />
+          <img
+            src="./Images/menu.png"
+            class="menu-icon"
+            alt="menu"
+            onclick="menutoggle()"
+          />
+        </div>
+        <div class="row">
+          <div class="col-2">
+            <h1>
+              Give Your Workout <br />
+              A New Style!
+            </h1>
+            <p>
+              Success isn't always about greatness. It's about consistancy.
+              Consistant <br />
+              hard work gains Success. Greatness will come.
+            </p>
+            <a href="" class="btn">Explore Now &#10137;</a>
+          </div>
+          <div class="col-2">
+            <img src="./Images/image1.png" alt="product" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------- featured categories -------->
+    <div class="categories">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <img src="./Images/category-1.jpg" alt="product" />
+          </div>
+          <div class="col-3">
+            <img src="./Images/category-2.jpg" alt="product" />
+          </div>
+          <div class="col-3">
+            <img src="./Images/category-3.jpg" alt="product" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-------- featured products -------->
+    <div class="small-container">
+      <h2 class="title">Featured Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-1.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-2.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-3.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-4.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+      <h2 class="title">latest Products</h2>
+      <div class="row">
+        <div class="col-4">
+          <img src="./Images/product-5.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-6.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-7.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-8.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-9.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-10.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-11.jpg" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+        <div class="col-4">
+          <img src="./Images/product-12.jpg" alt="product" />
+          <h4>Red Printed T-Shirt</h4>
+          <div class="rating">
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-fill"></i>
+            <i class="bi bi-star-half"></i>
+            <i class="bi bi-star"></i>
+          </div>
+          <p>$50.00</p>
+        </div>
+      </div>
+    </div>
+    <!--------------offer-------------->
+    <div class="offer">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-2">
+            <img class="offer-img" src="./Images/exclusive.png" alt="product" />
+          </div>
+          <div class="col-2">
+            <p>Exclusively Available on Redstore</p>
+            <h1>Smart Band 4</h1>
+
+            <small
+              >The MI smart Band 4 features a 39.9% larger(than MI Band 3)
+              AMOLED color full-touch display with adjustable brightness, so
+              everything is clear.</small
+            >
+            <a href="" class="btn">Buy Now &#10137;</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!------testimonial ---------->
+    <div class="testimonial">
+      <div class="small-container">
+        <div class="row">
+          <div class="col-3">
+            <i class="bi bi-chat-square-quote"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <img src="./Images/user-1.png" alt="product" />
+            <h3>Alexandra parker</h3>
+          </div>
+          <div class="col-3">
+            <i class="bi bi-chat-square-quote"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <img src="./Images/user-2.png" alt="product" />
+            <h3>Javed Momin</h3>
+          </div>
+          <div class="col-3">
+            <i class="bi bi-chat-square-quote"></i>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever.
+            </p>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <img src="./Images/user-3.png" alt="product" />
+            <h3>Ellie D'souza</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+   
+    
+
+    <template>
+         <!-------- featured categories -------->
+    <div class="categories">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <img src="./Images/category-1.jpg" alt="product" />
+            </div>
+            <div class="col-3">
+              <img src="./Images/category-2.jpg" alt="product" />
+            </div>
+            <div class="col-3">
+              <img src="./Images/category-3.jpg" alt="product" />
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <!-------- featured products -------->
+      <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="./Images/product-1.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-2.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-3.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-4.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+        </div>
+        <h2 class="title">latest Products</h2>
+        <div class="row">
+          <div class="col-4">
+            <img src="./Images/product-5.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-6.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-7.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-8.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-9.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-10.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-11.jpg" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+          <div class="col-4">
+            <img src="./Images/product-12.jpg" alt="product" />
+            <h4>Red Printed T-Shirt</h4>
+            <div class="rating">
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-fill"></i>
+              <i class="bi bi-star-half"></i>
+              <i class="bi bi-star"></i>
+            </div>
+            <p>$50.00</p>
+          </div>
+        </div>
+      </div>
+      <!--------------offer-------------->
+      <div class="offer">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-2">
+              <img class="offer-img" src="./Images/exclusive.png" alt="product" />
+            </div>
+            <div class="col-2">
+              <p>Exclusively Available on Redstore</p>
+              <h1>Smart Band 4</h1>
+  
+              <small
+                >The MI smart Band 4 features a 39.9% larger(than MI Band 3)
+                AMOLED color full-touch display with adjustable brightness, so
+                everything is clear.</small
+              >
+              <a href="" class="btn">Buy Now &#10137;</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!------testimonial ---------->
+      <div class="testimonial">
+        <div class="small-container">
+          <div class="row">
+            <div class="col-3">
+              <i class="bi bi-chat-square-quote"></i>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever.
+              </p>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <img src="./Images/user-1.png" alt="product" />
+              <h3>Alexandra parker</h3>
+            </div>
+            <div class="col-3">
+              <i class="bi bi-chat-square-quote"></i>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever.
+              </p>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star"></i>
+              </div>
+              <img src="./Images/user-2.png" alt="product" />
+              <h3>Javed Momin</h3>
+            </div>
+            <div class="col-3">
+              <i class="bi bi-chat-square-quote"></i>
+              <p>
+                Lorem Ipsum is simply dummy text of the printing and typesetting
+                industry. Lorem Ipsum has been the industry's standard dummy text
+                ever.
+              </p>
+              <div class="rating">
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-fill"></i>
+                <i class="bi bi-star-half"></i>
+              </div>
+              <img src="./Images/user-3.png" alt="product" />
+              <h3>Ellie D'souza</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </template>
+</html>
